@@ -1,4 +1,4 @@
-  #First bubble-sort method for integers
+# First bubble-sort method for integers
 def bubble_sort(arr)
   i = 0
   length = arr.length
@@ -14,7 +14,7 @@ def bubble_sort(arr)
 end
 puts bubble_sort([4, 3, 5, 1, 2])
 
-  # Second bubble-sort method for strings
+# Second bubble-sort method for strings
 def bubble_sort_by(arr)
   i = 0
   length = arr.length
