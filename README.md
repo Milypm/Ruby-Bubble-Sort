@@ -12,7 +12,16 @@
 To get a local copy up and running follow these simple steps.
 * If you're using latest version of git.
 * Clone this url https://github.com/Milypm/Ruby-Bubble-Sort/tree/main on your local host.
-* Open the ruby file with the terminal running the command line "ruby bubble-sort.rb"
+* Un zip and open the folder that contains the file and run the command line 
+--> irb
+irb(main):001:0> require './bubble_sort'
+Hopefully you will get a => true
+*Then you can try the first method called bubble_sort([9,8,7,6,5,4])
+-In this example you will get the sorted array [4,5,6,7,8,9]
+*To try the second method use bubble_sort_by(["helloxxx3" "helloxx2" "hellox1" "hello"]) do |left, right| end
+-In this example you will get the sorted array => ["hello", "hellox1", "helloxx2", "helloxxx3"]
+
+
 ## Authors
 **Carlos Ospina**
 - GitHub: [@carloso0114](https://github.com/carloso0114)
